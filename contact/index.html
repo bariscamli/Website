@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic">
+    <link rel="stylesheet" type="text/css" href="queries_contact.css">
+    
+  </head>
+  <body> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../."><img src="../house/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="../.">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../house" >Immobilien</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href=".">Kontakt </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section-contact">
+      <div class="card mb-3 card-contact" >
+        <div class="row no-gutters">
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title">Bülent Çamlı</h5>
+              <p class="card-text"><span class="text-smaller">Windelsbleicher Str.3 43 <br>33647 Bielefeld</br> </span></span></p>
+              <p class="card-text"><span class="text-smaller">Mobil: (0172) 39 77 609</span></p>
+              <p class="card-text"><small class="text-muted">Tel.: (0521) 963 001 49 <br>Fax: (0521) 963 003 17</br> <br>E-Mail: bulentcamli@gmail.com</br></small></p>
+            </div>
+          </div>
+          <div class="col-4">
+              <img src="bulent-camli.png" class="card-img" alt="bulent-camli">
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-form">
+        <form>
+            <div class="container">
+                <h2>Kontaktieren Sie uns</h2>
+                <div class="row row-form">
+                    <div class="col col-lg-3">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="col col-down">
+                        <input type="text" id="name" class="name" placeholder="Dein Name" required> 
+                    </div>
+                </div>
+                <div class="row row-form">
+                        <div class="col col-lg-3">
+                            <label for="email">E-Mail:</label>
+                        </div>
+                     <div class="col col-down">
+                        <input type="email" id="email" class="email" placeholder="Deine E-Mail" required> 
+                    </div>
+                </div>
+                <div class="row row-form">
+                        <div class="col col-lg-3">
+                            <label for="phone">Tel.:</label>
+                        </div>
+                    <div class="col col-down">
+                        <input type="text" id="phone" class="phone" placeholder="Deine Rufnummer" required> 
+                    </div>
+                </div>
+                <div class="row row-form">
+                        <div class="col col-lg-3">
+                            <label for="message">Notiz:</label>
+                        </div>
+                    <div class="col col-down">
+                        <textarea type="message" id="message" class="message" placeholder="Deine Notiz" required></textarea>
+                    </div>
+                </div>
+                <div class="row row-form"> 
+                    <div class="col col-lg-3"></div>
+                    <div class="col col-down">
+                        <input type="submit" value="Senden !">
+                    </div>
+                </div>   
+            </div>
+        </form>
+    </section>
+  
+  
+  
+  
+  </body>
+</html>

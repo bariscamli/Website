@@ -1,0 +1,59 @@
+@import "base/base";
+body{
+    background-color: #f7f7f7;
+    color: #555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.section-house{
+    margin:10px auto;    
+}
+.btn{
+    width: 100%;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0,.2);
+    background-color:#efefef;
+    margin:0px 50px;
+}
+.house--1{
+    &__pic{
+        width: 35%;
+        float:left;
+        & img {
+            width: 100%;
+        }
+    }
+    &__info{
+        float:right;
+        text-decoration: none;
+        &__up{
+            & h5{
+                margin:2% 4% 0% 4%;
+                & span{
+                    margin-left:2%;
+                }
+            }
+        }
+        &__down{
+            padding-top:10%;
+            padding-right:5%;
+            padding-left:5%; /* Error */
+            & .col{
+                & h5{
+                    font-size: 100%;
+                    color:#444;
+                }
+                & h4{
+                    font-weight: 400;
+                    & span{
+                        font-size:80%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

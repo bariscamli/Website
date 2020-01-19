@@ -1,0 +1,39 @@
+.feature-icon{
+    font-size: 300%;
+}
+.ion-md-card{
+    color:#003ca9;
+}
+.ion-md-home{
+    color:#1DB954;
+}
+.ion-md-construct{
+    color:#A9A9A9;
+}
+.ion-ios-people{
+    color:#e67e22;
+}
+
+section{
+    padding: 100px 0px;
+    margin:0px 150px;
+    background-color: #efefef;
+}
+
+section:before{
+    display: block;
+    height: 2px;
+    background-color: red;
+    content: " ";
+    width: 200px;
+    margin:0px auto;
+}
+.container{
+    margin-top:50px;
+}
+
+.section-form{
+   padding: 0px 20%;
+   padding-bottom:40px;
+}
+

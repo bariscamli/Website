@@ -1,0 +1,19 @@
+textarea{
+    height: 100px;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.row-form{
+    margin:15px 0px;
+}
+.row-form:last-child{
+    margin-bottom:20px;
+}
+

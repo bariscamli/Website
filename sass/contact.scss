@@ -1,0 +1,35 @@
+@import "base/base";
+@import "abstracts/variables";
+@import "components/button";
+@import "components/textarea";
+.section-form{
+   padding: 0px 20%;
+   padding-bottom:40px;
+}
+section{
+    padding: 100px 0px;
+    margin:0px 150px;
+    background-color: #efefef;
+}
+html body {
+    background-color: #f7f7f7;
+    color: #555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.card-contact{
+    margin-left:25%;
+    margin-right: 25%;
+}
+h2{
+    text-align: center;
+}
+.col-4 img{
+    height: 100%;
+} 
+
+
+   
+

@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: ",";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+input[type=submit] {
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+  color: #fff;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.3s,border 0.3s,color 0.3s; }
+
+input[type=submit]:hover,
+input[type=submit]:active {
+  background-color: #d00; }
+
+textarea {
+  height: 100px; }
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc; }
+
+.row-form {
+  margin: 15px 0px; }
+
+.row-form:last-child {
+  margin-bottom: 20px; }
+
+.section-form {
+  padding: 0px 20%;
+  padding-bottom: 40px; }
+
+section {
+  padding: 100px 0px;
+  margin: 0px 150px;
+  background-color: #efefef; }
+
+html body {
+  background-color: #f7f7f7;
+  color: #555;
+  font-family: 'Lato','Arial',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility; }
+
+.card-contact {
+  margin-left: 25%;
+  margin-right: 25%; }
+
+h2 {
+  text-align: center; }
+
+.col-4 img {
+  height: 100%; }

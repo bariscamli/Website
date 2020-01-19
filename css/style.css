@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: ",";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+html body {
+  background-color: #f7f7f7;
+  color: #555;
+  font-family: 'Lato','Arial',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility; }
+
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 110%;
+  margin-bottom: 30px; }
+
+.box {
+  text-align: center;
+  margin-right: 20px; }
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+  padding: 1%; }
+
+h2 {
+  text-align: center; }
+
+input[type=submit] {
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+  color: #fff;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.3s,border 0.3s,color 0.3s; }
+
+input[type=submit]:hover,
+input[type=submit]:active {
+  background-color: #d00; }
+
+textarea {
+  height: 100px; }
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc; }
+
+.row-form {
+  margin: 15px 0px; }
+
+.row-form:last-child {
+  margin-bottom: 20px; }
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(ofis.jpg);
+  background-size: cover;
+  height: 95vh;
+  background-position: top;
+  position: relative; }
+
+.section-header {
+  margin: 0 150px; }
+
+.feature-icon {
+  font-size: 300%; }
+
+.ion-md-card {
+  color: #003ca9; }
+
+.ion-md-home {
+  color: #1DB954; }
+
+.ion-md-construct {
+  color: #A9A9A9; }
+
+.ion-ios-people {
+  color: #e67e22; }
+
+section {
+  padding: 100px 0px;
+  margin: 0px 150px;
+  background-color: #efefef; }
+
+section:before {
+  display: block;
+  height: 2px;
+  background-color: red;
+  content: " ";
+  width: 200px;
+  margin: 0px auto; }
+
+.container {
+  margin-top: 50px; }
+
+.section-form {
+  padding: 0px 20%;
+  padding-bottom: 40px; }

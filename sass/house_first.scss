@@ -1,0 +1,68 @@
+@import "base/base";
+@import "abstracts/variables";
+@import "components/button";
+@import "components/textarea";
+body{
+    background-color: #f7f7f7;
+    color: #555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+h2{
+    text-align: center;
+}
+.fotorama{
+    width: 500px;
+    height: 500px;
+}
+section{
+    padding: 50px 0px;
+    margin:0px 150px;
+    background-color: #efefef;
+}
+.row-text{
+    text-align: center;
+}
+.info{
+    font-weight: 400;
+    padding-left:50px;
+    & .price{
+        letter-spacing: 2px;
+        & h2 span{
+            font-size:70%;
+        }
+    }
+    & .location{
+        word-spacing: 4px;
+    }
+    & .description{
+        padding-top:25px;
+    }
+}
+.box{
+    display: inline-block;
+}
+.row_des{
+    padding: 10px 0px;
+    &:after{
+        content: " ";
+        height: 1px;
+        width: 100%;
+        background-color:#777;
+    }
+}
+.ion-ios-pricetag{
+    color:#003ca9;
+}
+.ion-ios-pin{
+    color:#1DB954;
+}
+.section-form{
+    padding: 0px 20%;
+    padding-bottom:40px;
+ }
+
+
+ 

@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: ",";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+body {
+  background-color: #f7f7f7;
+  color: #555;
+  font-family: 'Lato','Arial',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility; }
+
+.section-house {
+  margin: 10px auto; }
+
+.btn {
+  width: 100%;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
+  background-color: #efefef;
+  margin: 0px 50px; }
+
+.house--1__pic {
+  width: 35%;
+  float: left; }
+  .house--1__pic img {
+    width: 100%; }
+
+.house--1__info {
+  float: right;
+  text-decoration: none; }
+  .house--1__info__up h5 {
+    margin: 2% 4% 0% 4%; }
+    .house--1__info__up h5 span {
+      margin-left: 2%; }
+  .house--1__info__down {
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    /* Error */ }
+    .house--1__info__down .col h5 {
+      font-size: 100%;
+      color: #444; }
+    .house--1__info__down .col h4 {
+      font-weight: 400; }
+      .house--1__info__down .col h4 span {
+        font-size: 80%; }

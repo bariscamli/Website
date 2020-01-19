@@ -1,0 +1,121 @@
+/* Big tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (min-width:1084px) and (max-width:1200px){
+    
+    section{
+        margin:0px 100px;
+        
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1083px){
+    section{
+        margin: 0px 50px;
+    }
+    .card{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    
+
+}
+
+/* Small tablets to big tablets: from 992px to 1023px */
+@media only screen and (min-width:992px) and (max-width:1023px){
+    section{
+        margin: 0px 50px;
+    }
+    .card{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    
+
+   
+}
+/* Small tablets to big tablets: from 768px to 991px */
+@media only screen and (min-width:768px) and (max-width:991px){
+    
+    .card{
+      margin-right: 15%;
+      margin-left: 15%;
+    }
+    section{
+        margin: 0px 50px;
+    }
+    .col-lg-3{
+        max-width: 30%;
+    }
+}
+
+/* Small phones to small tablets: from 637px to 767px */
+@media only screen and (min-width:637px) and (max-width:767px){
+    .card{
+        margin-right: 15%;
+        margin-left: 15%;
+        
+        
+    }
+    section{
+        margin: 0px 10px;
+    }
+    .col-lg-3{
+        max-width: 30%;
+    }
+    
+    
+
+}
+/* Small phones to small tablets: from 481px to 636px */
+@media only screen and (min-width:481px) and (max-width:636px){
+    
+    section{
+        margin: 0px 0px;
+    }
+    .col-lg-3{
+        max-width: 33%;
+    }
+    ::placeholder{
+        font-size: 85%;
+    }
+    .card{
+        margin-right: 9%;
+        margin-left: 9%;
+        
+        
+    }
+   
+    
+    
+
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width:480px){
+
+
+    section{
+        margin: 0px 0px;
+    }
+    .col-lg-3{
+        max-width: 33%;
+    }
+    ::placeholder{
+        font-size: 80%;
+    }
+    .card{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .container{
+       width: 120%; 
+    }
+
+
+}
+
+
+
+
+
+
+
+
